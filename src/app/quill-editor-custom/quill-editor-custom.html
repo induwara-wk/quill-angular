@@ -1,0 +1,11 @@
+<quill-editor
+  [(ngModel)]="editorContent"
+  [modules]="modules"
+  [format]="'object'"
+  [formats]="formats"
+  [style]="{height: '250px', width: '100%'}"
+  [placeholder]="'Write your custom content here...'"
+  theme="snow"
+>
+</quill-editor>
+<pre>{{ editorContent | json }}</pre>

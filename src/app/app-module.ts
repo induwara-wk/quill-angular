@@ -7,11 +7,13 @@ import { App } from './app';
 import { QuillModule } from 'ngx-quill';
 import { QuillEditor } from './quill-editor/quill-editor';
 import { FormsModule } from '@angular/forms';
+import { QuillEditorCustom } from './quill-editor-custom/quill-editor-custom';
 
 @NgModule({
   declarations: [
     App,
-    QuillEditor
+    QuillEditor,
+    QuillEditorCustom
   ],
   imports: [
     BrowserModule,

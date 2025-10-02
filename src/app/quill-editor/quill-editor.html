@@ -1,3 +1,7 @@
-<quill-editor [(ngModel)]="editorContent" [style]="{height: '200px'}"></quill-editor>
+<quill-editor 
+    [(ngModel)]="editorContent" 
+    [style]="{height: '200px'}"
+>
+</quill-editor>
 <p>Content:</p>
-<pre>{{ editorContent | json }}</pre>
+<pre>{{ editorContent }}</pre>
