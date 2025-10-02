@@ -22,10 +22,5 @@ modules = {
   ]
 };
 
-formats = [
-  'header', 'list', 'indent',
-  'color', 'background', 'align',
-  'bold', 'italic', 'underline', 'strike',
-  'link', 'image'
-];
+formats = ['header', 'list', 'indent', 'color', 'background', 'align', 'bold', 'italic', 'underline', 'strike', 'link', 'image'];
 }
